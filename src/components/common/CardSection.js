@@ -12,7 +12,7 @@ const CardSection = (props) => {
 const styles={
     cardStyle: {
         borderColor: '#ddd',
-        borderBottomWidth: 0,
+        borderBottomWidth: 1,
         padding: 5,
         backgroundColor: '#fff',
         position: 'relative',
