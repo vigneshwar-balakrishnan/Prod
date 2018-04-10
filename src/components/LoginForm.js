@@ -40,9 +40,9 @@ class LoginForm extends Component {
         // if else can also be used ,since default else is return button keep plain
         return(
             <Button onTap={this.onButtonPress.bind(this)} >
-                Login
+                Log In
             </Button>
-
+           
         )
     }
    
@@ -75,6 +75,11 @@ class LoginForm extends Component {
                 <CardSection>
                     {this.renderButton()}
                 </CardSection>
+
+               <Button>
+                   lala
+               </Button>
+                
             </Card>
         )
     }
